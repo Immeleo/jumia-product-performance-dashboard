@@ -81,27 +81,27 @@ jumia-product-performance-dashboard/
 
 All data transformations were executed cleanly in Cleaned\_Data (tblProducts) and documented in the workbook Data\_Dictionary:
 
-* \*Product Name:\* Standardized using =TRIM().
-* \*Prices:\* Cleaned of text characters (KSh, commas) and converted to numeric currency (KSh #,##0.00). Range values were resolved using midpoints: (Min + Max) / 2.
-* \*Discounts:\* Stripped of % signs, converted to decimals, and formatted as Percentage (0%).
-* \*Reviews:\* Converted negative values to absolute whole numbers via =ABS().
-* \*Ratings:\* Extracted numeric values by removing " out of 5" and converted to decimals.
+* Product Name: Standardized using =TRIM().
+* Prices: Cleaned of text characters (KSh, commas) and converted to numeric currency (KSh #,##0.00). Range values were resolved using midpoints: (Min + Max) / 2.
+* Discounts: Stripped of % signs, converted to decimals, and formatted as Percentage (0%).
+* Reviews: Converted negative values to absolute whole numbers via =ABS().
+* Ratings: Extracted numeric values by removing " out of 5" and converted to decimals.
 
 
 
 Calculated \& Enriched Fields
 
-* \*Discount Amount:\* Old Price - Current Price
-* \*Price Category:\* 
+* Discount Amount: Old Price - Current Price
+* Price Category: 
 
-&#x20;        - Low Price: KSh 493.00 (First Quartile) 
+    Low Price: KSh 493.00 (First Quartile) 
 
-&#x20;        - Medium Price: KSh 493.01 – KSh 1,669.50 (First Quartile to Third Quartile) 
+    Medium Price: KSh 493.01 – KSh 1,669.50 (First Quartile to Third Quartile) 
 
-&#x20;        - High Price: $>$ KSh 1,669.50 (Third Quartile)
+    High Price: $>$ KSh 1,669.50 (Third Quartile)
 
-* \*Discount Category:\* Low (<20%), Medium (20% - 40%), High (>40\&)
-* \*Rating Category:\* Poor (<3.0), Average (3.0 - 4.5), Excellent (>4.5)
+*  Discount Category: Low (<20%), Medium (20% - 40%), High (>40\&)
+*  Rating Category:  Poor (<3.0), Average (3.0 - 4.5), Excellent (>4.5)
 
 
 
