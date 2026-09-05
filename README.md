@@ -44,11 +44,11 @@ jumia-product-performance-dashboard/
 
 ├── data/
 
-│   └── Excel\_jumia\_dataset.csv
+│   └── Excel_jumia_dataset.csv
 
 ├── dashboard/
 
-│   └── jumia\_product\_dashboard.xlsx
+│   └── jumia_product_dashboard.xlsx
 
 └── images/
 
