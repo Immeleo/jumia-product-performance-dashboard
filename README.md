@@ -52,13 +52,13 @@ jumia-product-performance-dashboard/
 
 └── images/
 
-&#x20;   ├── raw-data.png
+         ├── raw-data.png
 
-&#x20;   ├── cleaned-data.png
+         ├── cleaned-data.png
 
-&#x20;   ├── pivot-tables.png
+         ├── pivot-tables.png
 
-&#x20;   └── dashboard.png 
+         └── dashboard.png 
 
 ```
 
